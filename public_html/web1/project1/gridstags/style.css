@@ -1,0 +1,51 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+    line-height: 44px;
+    color: rgb(80, 50, 22);
+
+    background-color: pink;
+background-image: url(../img_5895.webp);
+background-repeat: no-repeat;
+background-size: cover;
+}
+header {
+    width: 100%;
+    height: 150%;
+    background-color: white;
+
+}
+
+nav ul li {
+     display: inline-block;
+     margin-right: 30px;
+}
+main, footer {
+    padding: 20px;
+}
+main article p  {
+    max-width: 60px;
+}
+
+input[type=text],
+input[type=password],
+input[type=submit],
+textarea {
+    display: block;
+    padding: 10px;
+    border: 1px solid white;
+    margin-bottom: 16px;
+    border-radius: 10px;
+    width: 260px;
+}

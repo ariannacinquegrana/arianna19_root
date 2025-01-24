@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arianna's Javascript 1</title>
+     <style>
+    body{background-color:rgb(215, 149, 158);}
+    </style>
+</head>
+    <body>
+    
+    <h1>Javascript Demo 1</h1>
+    <button onclick="eatSushi()">CLICK MOI</button>
+    <main id="content"></main>
+   <script>
+        alert('Hey, Whats Up?')
+        console.log("Page loaded succesfully!");
+
+
+   // variables
+   // dynamic variable type "let" (data can be changed)
+   let myName = "Arianna";
+   
+   myName = "Tory Lanez";
+
+   console.log(myName);
+   
+   //constant variable (data can't be changed)
+   const pi = 3.14159;
+
+   console.log(pi * 5);
+
+   ///mixed message logging
+    // uses + to concatenate strings with other string 
+    // String = textual data, in quotes
+    console.log("Pi times 5: " + pi*5);
+
+    let mySound = new Audio("sounds/cat-meow-6226.mp3");
+
+    const myContent = document.getElementById("content");
+
+
+
+    function eatSushi() {
+      //alert("Yum Yum");
+      mySound.play();
+      myContent.innerHTML = '<h2>Yum Yum</h2>';
+      
+    }
+   
+    </script>
+
+</body>
+</html>

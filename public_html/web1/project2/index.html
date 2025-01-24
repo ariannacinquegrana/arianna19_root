@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/app.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Koulen&family=Oleo+Script+Swash+Caps:wght@400;700&display=swap" rel="stylesheet"> 
+<link rel="stylesheet" href="./app.css">
+<title>Project 2 | My Character </title>
+
+</head>
+<body>
+<h1>Lulu, Milo & Coco</h1>
+<h2>- The Three Macarons -</h2>
+
+<div id="panel"> CLICK HERE </div>
+<img src="../project2/figmamacaron.png" width="300" alt="">
+<br>
+<br>
+<p>There were three little macarons who were triplets, 
+    each a delicate pastel color one was soft pink, another a pale lavender, 
+    and the third light sky blue. Despite their differences in flavor strawberry, 
+    lavender honey, and blueberry they shared an unbreakable bond. They spent their 
+    days rolling around the bakery together, giggling as they tumbled into one another, 
+    their crunchy exteriors and creamy fillings always perfectly matched. Though they were small, 
+    they had the biggest hearts, spreading joy to anyone who tasted them, and always reminding 
+    each other that they were sweetest when together.</p>
+    <br>
+    <br>
+    <h3>The Design Process</h3>
+    <br>
+    <img class="screenshot" src="../project2/designprocess.png" width="500">
+
+    <button id="btn" onclick="top.location.href = '../project3/index.html'">Play Game!</button>
+
+    <script>
+    const panel = document.getElementById("panel");
+    const sound = new Audio("sounds/door.mp3");
+
+    panel.onclick = function() {
+         this.classList.toggle("slide-up");
+         sound.play();
+    }
+</script>
+
+</body>
+</html>

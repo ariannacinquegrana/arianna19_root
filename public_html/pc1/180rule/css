@@ -1,0 +1,5 @@
+a {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    font-size: 27px;
+}

@@ -1,0 +1,27 @@
+*{
+    margin: 3px;
+    padding: 3px;
+}
+
+li{
+    display: grid;
+}
+
+body{
+    background-color: lightslategray;
+    padding: 0%;
+}
+a{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    font-size: 27px;
+}
+
+a:hover {
+     color: black;
+
+   }
+
+/* a:visited {
+    color:white
+} */

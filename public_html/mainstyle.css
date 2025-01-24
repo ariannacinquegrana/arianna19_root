@@ -1,0 +1,27 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+     a {
+        color:black;
+        font-size: 27px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        display: inline-block;
+        margin: 10px;
+        padding: 5px;
+        margin: 5px;
+
+
+     }
+     a:hover {
+          color:white;
+
+        }

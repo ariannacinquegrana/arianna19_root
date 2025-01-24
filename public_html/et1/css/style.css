@@ -1,0 +1,18 @@
+*{
+    margin: 2px;
+    padding: 2px;
+}
+
+li{
+    display: grid;
+}
+a{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    font-size: 25px;
+}
+
+a:hover {
+     color: white;
+
+   }
